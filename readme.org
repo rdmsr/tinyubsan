@@ -1,0 +1,5 @@
+* TinyUBsan
+tinyUBsan is an Undefined Behavior SANitizer implementation for hobby kernels
+
+** How to use in your project
+To use tinyubsan in your project, you only need a function named =print= which accepts printf-like formatting; You can then add tinyubsan.c to your project!
